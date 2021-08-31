@@ -1,0 +1,2 @@
+type db-volume.tar.bz2 | docker run -i -v db-data:/volume --rm loomchild/volume-backup restore -f -
+type web-volume.tar.bz2 | docker run -i -v web-data:/volume --rm loomchild/volume-backup restore -f - 
